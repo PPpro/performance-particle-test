@@ -16,7 +16,7 @@ const { ccclass, property } = cc._decorator;
 
 let totalTime = 0;
 let totalCount = 0;
-const instantiateCout = 100;
+const instantiateCout = 1000;
 
 @ccclass('Test')
 export class Test extends cc.Component {
